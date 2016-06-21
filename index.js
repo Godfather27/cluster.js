@@ -25,7 +25,7 @@ if (cluster.isMaster) {
 } else {
   app.use(express.static('public'));
 
-  app.listen(8000, function() {
+  app.listen(3000, function() {
     console.log('server is running on http://localhost:3000');
   });
 }

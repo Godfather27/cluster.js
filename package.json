@@ -4,7 +4,8 @@
   "description": "node cluster",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "slow": "node slow.js"
   },
   "repository": {
     "type": "git",
